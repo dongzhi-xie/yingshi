@@ -1,0 +1,101 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{	
+    background:url(bg.jpg) center top no-repeat!important;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	overflow-y: hidden;
+}
+input,button {
+	border:none;
+	outline:none;
+	background: transparent; 
+    text-decoration:none;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #98ADE6 inset;
+	opacity:0.3;
+	/*filter:alpha(opacity=30);	*/
+}
+.div-100{
+	width:100%; 
+	height:100%;
+	margin:0 auto; 
+}
+.div-100 .title{
+	display:block;
+	width:100%;
+	height:215px;
+	margin:0 auto;
+	text-align:center;
+}
+.div-100 .title img{
+	display:block;
+	width:440px;
+	height:104px;
+	margin:0 auto;
+	padding-top:110px;
+}
+.div-100 .login-body{
+    width:100%;	
+	height:400px;
+    background:url(login.png) center center no-repeat;
+	background-size:560px 340px;
+	vertical-align:middle;
+	text-align:center;
+	padding-top:30px;
+}
+.div-100 .login-body .login-box{
+	display:inline-block;
+	width:500px;
+	height:250px;
+	padding-top:70px;
+	margin:0 auto;
+}
+.div-100 .login-body .login-box #us,.login-box #pw{	
+    width:333px;
+	height:53px;
+	vertical-align:middle;
+} 
+.div-100 .login-body .login-box #us{
+	background:url(name1.png) no-repeat;
+	margin:10px 83px 30px 83px; 
+}
+.div-100 .login-body .login-box #pw{
+	background:url(pass1.png) no-repeat;
+	margin:30px 83px 30px 83px; 
+}
+.div-100 .login-body .login-box form .login{
+	width:333px;
+	height:53px;
+    text-indent:50px;
+	line-height:50px\9;
+	font-family:"΢���ź�";
+	font-size:24px;
+	vertical-align:middle;
+	overflow:hidden;
+}
+.div-100 .login-body .login-box .loginbtn{   
+	width:333px;
+	height:50px;
+	text-align:center;
+	display:inline;
+}
+.div-100 .login-body .login-box .loginbtn input{
+	width: 333px;
+	height: 50px;
+	cursor: pointer;
+	background:url(dl.png) center center no-repeat;
+	margin:30px 83px 30px 83px;
+
+}
+.div-100 .login-body .login-box .loginbtn input{
+	background:url(dl.png) no-repeat;
+}
+.div-100 .login-body .login-box .loginbtn input:hover{
+	background:url(dl-1.png) no-repeat;
+}
